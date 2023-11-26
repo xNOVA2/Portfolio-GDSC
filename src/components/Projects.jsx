@@ -1,40 +1,46 @@
 import React from "react";
 import { useState } from "react";
+import project1 from '../Images/1.png'
+import project2 from '../Images/2.png'
+import project3 from '../Images/3.png'
+import project4 from '../Images/4.png'
+import project5 from '../Images/5.png'
+import project6 from '../Images/6.png'
 function Projects() {
   const [projects] = useState([
     {
       title: "Project 1",
-      img: "./react-portfolio-project/Images/1.png",
+      img: project1,
       gLink: "#",
       lLink: "#",
     },
     {
       title: "Project 2",
-      img: "./react-portfolio-project/Images/2.png",
+      img: project2,
       gLink: "#",
       lLink: "#",
     },
     {
       title: "Project 3",
-      img: "./react-portfolio-project/Images/3.png",
+      img: project3,
       gLink: "#",
       lLink: "#",
     },
     {
       title: "Project 4",
-      img: "./react-portfolio-project/Images/4.png",
+      img: project4,
       gLink: "#",
       lLink: "#",
     },
     {
       title: "Project 5",
-      img: "./react-portfolio-project/Images/5.png",
+      img: project5,
       gLink: "#",
       lLink: "#",
     },
     {
       title: "Project 6",
-      img: "./react-portfolio-project/Images/6.png",
+      img: project6,
       gLink: "#",
       lLink: "#",
     },

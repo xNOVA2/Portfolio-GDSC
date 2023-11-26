@@ -1,11 +1,12 @@
 import React from "react";
+import image from '../Images/bow (2).png'
 function Banner() {
   return (
     <section className="banner" id="banner">
       <div className="container">
         <div className="banner-wrapper">
           <div className="banner-img">
-            <img src="./react-portfolio-project/Images/bow (2).png" alt="banner" />
+            <img src={image} alt="banner" />
           </div>
           <div className="banner-content">
             <h6>Hello, I'm Rimsha Shoaib</h6>
